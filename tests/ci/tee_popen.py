@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-from stopwatch import Stopwatch
 from subprocess import Popen, PIPE, STDOUT
 from threading import Thread
 from time import sleep
 import sys
 import os
+
+from stopwatch import Stopwatch
 
 
 # Very simple tee logic implementation. You can specify shell command, output
